@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>show hidepassword</title>
+</head>
+<body>
+    <input type="password" name="" id="pass">
+    <button id="sh" onclick="toggle()">click</button>
+    <script>
+        let state=false
+        function toggle(){
+        document.getElementById(`pass`).setAttribute(`type`,`password`)
+        state=false
+        }
+
+    </script>
+</body>
+</html>
